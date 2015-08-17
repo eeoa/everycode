@@ -15,7 +15,9 @@ namespace Everycode
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new EverycodeForm());
+			Application.Run(
+			new EverycodeForm()
+			);
 		}
 	}
 }
